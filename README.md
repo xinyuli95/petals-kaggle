@@ -9,7 +9,7 @@ Our code demonstrate the use of TPU's with Transfer Learning to achieve a high a
 
 Below are some of the flowers we are trying to predict using our model:    
 
-![Screenshot](Flower_samples_for_training.jpg)
+![Screenshot](Images/Flower_samples_for_training.jpg)
 
 Below is the summary of models experimented on this dataset
 
@@ -27,4 +27,4 @@ The best prediction on unseen data came from an Ensemble of EfficientNet and Den
 [Group-11-flower-classification-best-score-version-0.97334](Group-11-flower-classification-best-score-version-0.97334)
 
 Some of the valid predictions from our ensemble model of EfficientNet and DenseNet are:
-![Screenshot](Predictions_from_ensemble.jpg)
+![Screenshot](Images/Predictions_from_ensemble.jpg)
