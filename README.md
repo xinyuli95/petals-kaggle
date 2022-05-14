@@ -16,10 +16,10 @@ Below is the summary of models experimented on this dataset
 | Number | Pre-trained Model | Num of epochs | Time taken per Epoch | Accuracy on Validation Set |
 | --- | --- | --- | --- | --- |
 | 1 | VGG19 | 10 | 220 seconds | 92.17% |
-| 1 | EfficentNet | 10 | 472 seconds | 96.36% |
-| 1 | DenseNet | 10 | 262 seconds | 97.59%  |
-| 1 | ResNet | 10 | 188 seconds | 96.98%  |
-| 1 | Xception | 10 | 171 seconds | 98.65% |
+| 2 | EfficentNet | 10 | 472 seconds | 96.36% |
+| 3 | DenseNet | 10 | 262 seconds | 97.59%  |
+| 4 | ResNet | 10 | 188 seconds | 96.98%  |
+| 5 | Xception | 10 | 171 seconds | 98.65% |
 
 
 Best Model with highest score - 97.334% Score
