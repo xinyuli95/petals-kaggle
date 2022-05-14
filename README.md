@@ -10,3 +10,21 @@ Our code demonstrate the use of TPU's with Transfer Learning to achieve a high a
 Below are some of the flowers we are trying to predict using our model:    
 
 ![Screenshot](Flower_samples_for_training.jpg)
+
+Below is the summary of models experimented on this dataset
+
+| Number | Pre-trained Model | Num of epochs | Time taken per Epoch | Accuracy on Validation Set |
+| --- | --- | --- | --- | --- |
+| 1 | VGG19 | 10 | 220 seconds | 92.17% |
+| 1 | EfficentNet | 10 | 472 seconds | 96.36% |
+| 1 | DenseNet | 10 | 262 seconds | 97.59%  |
+| 1 | ResNet | 10 | 188 seconds | 96.98%  |
+| 1 | Xception | 10 | 171 seconds | 98.65% |
+
+
+Best Model with highest score - 97.334% Score
+The best prediction on unseen data came from an Ensemble of EfficientNet and DenseNet and the Notebook is :
+[Group-11-flower-classification-best-score-version-0.97334](Group-11-flower-classification-best-score-version-0.97334)
+
+Some of the valid predictions from our ensemble model of EfficientNet and DenseNet are:
+![Screenshot](Predictions_from_ensemble.jpg)
